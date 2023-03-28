@@ -39,9 +39,5 @@ public class MoverScript : MonoBehaviour
         {
             transform.position += new Vector3(-1, 0, 0) * speed * Time.deltaTime;
         }
-
-
-
-
     }
 }

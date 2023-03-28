@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class CoinScript : MonoBehaviour
@@ -36,16 +33,10 @@ public class CoinScript : MonoBehaviour
     }
 
 
+    // instatiating coins with random positions 
     void createCoin()
     {
         Instantiate(coin, new Vector3(Random.Range(maxleft, maxright), Random.Range(maxtop, maxbottom), 0), transform.rotation);
-    }
-
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        Debug.Log("fuck you");
-        Destroy(gameObject);
     }
 
 }

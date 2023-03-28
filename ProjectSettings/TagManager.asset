@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Counter
   - Logic
+  - Projectile
+  - Ship
   layers:
   - Default
   - TransparentFX
@@ -45,6 +47,9 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Effects
+    uniqueID: 742088239
     locked: 0
   - name: GameObject
     uniqueID: 719242225
